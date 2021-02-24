@@ -23,7 +23,7 @@ func generate_project(msg chan string,over chan bool,p *model.Project,output str
 	)
 
 	defer func() {
-		os.RemoveAll(root_path)
+		//os.RemoveAll(root_path)
 		over <- isok
 	}()
 
@@ -72,10 +72,10 @@ func generate_project(msg chan string,over chan bool,p *model.Project,output str
 	}
 
 	//处理输出文件
-	if err := compress_output(msg,root_path,output);err != nil {
-		isok = false
-		return
-	}
+	//if err := compress_output(msg,root_path,output);err != nil {
+	//	isok = false
+	//	return
+	//}
 }
 //生成主目录
 func generate_root_path(msg chan string,root_path string) error {
