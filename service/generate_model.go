@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/njgeeran/core/utils"
 	"io"
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 	"os"
 	"strings"
 	"text/template"

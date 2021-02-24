@@ -3,7 +3,7 @@ package service
 import (
 	"github.com/google/uuid"
 	"github.com/njgeeran/core/utils"
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 	"os"
 	"path/filepath"
 	"strconv"

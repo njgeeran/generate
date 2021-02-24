@@ -1,7 +1,7 @@
 package service
 
 import (
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 	"runtime"
 )
 

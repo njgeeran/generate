@@ -2,7 +2,7 @@ package service
 
 import (
 	"github.com/jinzhu/gorm"
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 )
 
 func GetProjectData(db *gorm.DB,pid int) (*model.Project,error) {

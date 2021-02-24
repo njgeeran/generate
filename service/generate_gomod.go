@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 )
 
 func generate_gomod(msg chan string,go_path,root_path string,p *model.Project) error {

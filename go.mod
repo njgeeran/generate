@@ -1,4 +1,4 @@
-module lowcode/generate
+module github.com/njgeeran/generate
 
 go 1.13
 

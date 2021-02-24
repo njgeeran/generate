@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 	"testing"
 )
 

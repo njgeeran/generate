@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"lowcode/generate/model"
+	"github.com/njgeeran/generate/model"
 	"testing"
 )
 
